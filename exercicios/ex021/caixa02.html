@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        background-color: dimgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+    }
+
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;  
+        }
+
+    nav {
+        background-color:yellow;
+        padding: 3px;
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: green;
+        font-weight: bolder;
+        margin-right: 40px;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        background-color: honeydew;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 25px;
+    }
+
+    article {
+        background-color: khaki;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    article > aside {
+        background-color: lightgreen;
+    }
+
+    footer {
+        background-color: black;
+        color: blue;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+    }
+
+</style>
+<body>
+    <header>
+        <h1>Brasileirão Feminino Série A</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Últimos jogos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quae autem animi. Dolor ducimus est quos ad quaerat hic, vitae, aperiam debitis repellendus tenetur saepe quam. Ex corrupti neque doloremque?</p>
+                <aside>
+                    Artigo escrito por Mayra Brito
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+                <article>
+                    <h2>Próximos jogos</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fuga voluptas quod, natus suscipit quis veniam, consequuntur ratione facere ab, optio molestiae. Distinctio facilis, eos temporibus excepturi repudiandae omnis laboriosam.</p>
+                    <aside>
+                        Conteúdo escrito por Mayra Brito
+                    </aside>
+                </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Mayra Brito
+    </footer>
+</body>
+</html>
